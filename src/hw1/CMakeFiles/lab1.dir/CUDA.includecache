@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/adhi27/purdue/official_courses/ECE695-Prgrmble_Acleratr_Architecs/homework/cuda-programming-assignment-part-1-adhithadias/lab1.cu
+iostream
+-
+lab1.cuh
+/home/adhi27/purdue/official_courses/ECE695-Prgrmble_Acleratr_Architecs/homework/cuda-programming-assignment-part-1-adhithadias/lab1.cuh
+cpuLib.h
+/home/adhi27/purdue/official_courses/ECE695-Prgrmble_Acleratr_Architecs/homework/cuda-programming-assignment-part-1-adhithadias/cpuLib.h
+cudaLib.cuh
+/home/adhi27/purdue/official_courses/ECE695-Prgrmble_Acleratr_Architecs/homework/cuda-programming-assignment-part-1-adhithadias/cudaLib.cuh
+
+/home/adhi27/purdue/official_courses/ECE695-Prgrmble_Acleratr_Architecs/homework/cuda-programming-assignment-part-1-adhithadias/lab1.cuh
+
+include/cpuLib.h
+iostream
+-
+cstdlib
+-
+ctime
+-
+random
+-
+iomanip
+-
+chrono
+-
+cstring
+-
+cstdarg
+-
+
+include/cudaLib.cuh
+cpuLib.h
+include/cpuLib.h
+cuda.h
+-
+curand_kernel.h
+-
+
